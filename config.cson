@@ -1,0 +1,39 @@
+"*":
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "“”"
+      "‘’"
+      "«»"
+      "‹›"
+    ]
+  core:
+    packagesWithKeymapsDisabled: [
+      "lisp-paredit"
+    ]
+    projectHome: "/Users/samoleary/Documents/healthunlocked"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "firewatch-syntax"
+    ]
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "40a2736a-cb12-e6f4-8bcb-064e26623c1a"
+  "lisp-paredit": {}
+  "proto-repl":
+    autoPrettyPrint: true
+    autoScroll: false
+  welcome:
+    showOnStartup: false
+".clojure.source":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: false
+    nonWordCharacters: "()\"':,;~@#$%^&{}[]`"
+    scrollPastEnd: true
+    tabLength: 1
